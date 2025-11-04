@@ -12,7 +12,7 @@
                  </div>
                  <div class="col-md-6">
                      <div class="text-right d-none d-lg-block">
-                            Desarrollado por <i class="mdi mdi-heart text-danger"></i> IES HUANTA
+                            Desarrollado por IESP HUANTA REGS
                      </div>
                  </div>
              </div>

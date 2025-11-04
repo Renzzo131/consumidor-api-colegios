@@ -264,7 +264,6 @@
         const base_url = '<?php echo BASE_URL; ?>';
         const base_url_server = '<?php echo BASE_URL_SERVER; ?>';
         const session_session = '<?php echo $_SESSION['sesion_id']; ?>';
-        const session_ies = '<?php echo $_SESSION['sesion_ies']; ?>';
         const token_token = '<?php echo $_SESSION['sesion_token']; ?>';
     </script>
     <?php date_default_timezone_set('America/Lima');  ?>
@@ -283,7 +282,7 @@
                     <div class="navbar-brand-box d-flex align-items-left">
                         <a href="<?php echo BASE_URL ?>src/view/include/logo.png" class="logo">
                             <span>
-                                SISTEMA ADMINISTRATIVO - CENTROS EDUCATIVOS
+                                CENTROS EDUCATIVOS
                             </span>
                         </a>
 
@@ -313,9 +312,6 @@
                                 <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
                                     Mi perfil
                                 </a>
-                                <button class="dropdown-item d-flex align-items-center justify-content-between" onclick="send_email_password();">
-                                    <span>Cambiar mi Contraseña</span>
-</button>
                                 <button class="dropdown-item d-flex align-items-center justify-content-between" onclick="cerrar_sesion();">
                                     <span>Cerrar Sesión</span>
                                 </button>
@@ -368,6 +364,3 @@
                             </div>
                         </div>
                     </div>
-<!--                     <script>
-                        cargar_datos_menu(<?php echo $_SESSION['sesion_ies']; ?>);
-                    </script> -->
