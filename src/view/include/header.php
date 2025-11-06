@@ -341,6 +341,7 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="topnav-components">
                                         <a href="<?php echo BASE_URL ?>usuarios" class="dropdown-item">Usuarios</a>
+                                        <a href="<?php echo BASE_URL ?>token" class="dropdown-item">Mi token</a>
                                     </div>
                                 </li>
                                 <!-- ---------------------------------------------- FIN MENU SIGI ------------------------------------------------------------ -->
