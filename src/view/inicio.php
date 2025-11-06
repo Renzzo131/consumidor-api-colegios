@@ -219,7 +219,7 @@
   <div class="hero-section">
     <div class="hero-content row align-items-center">
       <div class="col-lg-8">
-        <h1>🏫 Sistema de Centros Educativos del Perú</h1>
+        <h1>Sistema de Centros Educativos del Perú</h1>
         <p>
           Accede a la información completa de todos los centros educativos del país. 
           Busca por código modular, nombre, ubicación geográfica, nivel educativo y más. 
@@ -238,28 +238,24 @@
   <div class="row mb-4">
     <div class="col-md-3 mb-3">
       <div class="stats-card">
-        <div class="icon">🏫</div>
         <h3 id="total_colegios">---</h3>
         <p>Centros Educativos</p>
       </div>
     </div>
     <div class="col-md-3 mb-3">
       <div class="stats-card">
-        <div class="icon">📍</div>
         <h3 id="total_departamentos">25</h3>
         <p>Departamentos</p>
       </div>
     </div>
     <div class="col-md-3 mb-3">
       <div class="stats-card">
-        <div class="icon">🎓</div>
         <h3 id="total_niveles">3</h3>
         <p>Niveles Educativos</p>
       </div>
     </div>
     <div class="col-md-3 mb-3">
       <div class="stats-card">
-        <div class="icon">✅</div>
         <h3 id="total_activos">---</h3>
         <p>Instituciones Activas</p>
       </div>
@@ -268,7 +264,7 @@
 
   <!-- Filter Section -->
   <div class="filter-section">
-    <h4>🔍 Filtros de Búsqueda Avanzada</h4>
+    <h4>Filtros de Búsqueda Avanzada</h4>
     <div class="row">
       <div class="col-md-4 mb-3">
         <label for="busqueda_codigo" class="form-label">Código Modular</label>
@@ -377,7 +373,7 @@
   <!-- Results Section -->
   <div class="results-section">
     <div class="results-header">
-      <h5>📋 Resultados de la Búsqueda</h5>
+      <h5>Resultados de la Búsqueda</h5>
       <div>
         <label for="cantidad_mostrar" class="me-2">Mostrar:</label>
         <select id="cantidad_mostrar" class="form-select d-inline-block" style="width: auto;" onchange="numero_pagina(1);">
