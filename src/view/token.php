@@ -2,7 +2,7 @@
 <style>
   /* Reutilizamos los estilos base del ejemplo */
   .hero-section {
-    background: linear-gradient(135deg, #FFC837 0%, #FF8008 100%);
+    background: linear-gradient(135deg, #D8232A 0%, #bebebeff 100%);
     border-radius: 20px;
     padding: 60px 40px;
     margin-bottom: 30px;
@@ -67,7 +67,7 @@
     content: '';
     width: 4px;
     height: 30px;
-    background: linear-gradient(135deg, #FFC837 0%, #FF8008 100%);
+    background: linear-gradient(135deg, #D8232A 0%, #bebebeff 100%);
     border-radius: 10px;
   }
 
@@ -93,7 +93,7 @@
   }
 
   .btn-update {
-    background: linear-gradient(135deg, #FFC837 0%, #FF8008 100%);
+    background: linear-gradient(135deg, #D8232A 0%, #bebebeff 100%);
     color: white;
     border: none;
     padding: 10px 25px;
@@ -127,15 +127,6 @@
     <div class="hero-content row align-items-center">
       <div class="col-lg-8">
         <h1>Mi Token</h1>
-        <p>
-          Visualiza y administra tu token de acceso al sistema de manera segura.  
-          Puedes actualizarlo directamente desde esta página.
-        </p>
-      </div>
-      <div class="col-lg-4 text-end d-none d-lg-block">
-        <img src="https://cdn-icons-png.flaticon.com/512/2956/2956744.png" 
-             alt="Token" 
-             style="max-width: 200px; filter: brightness(0) invert(1); opacity: 0.9;">
       </div>
     </div>
   </div>
@@ -150,7 +141,7 @@
       </div>
       <div class="col-md-3 mb-3 text-end">
 <button type="button" class="btn-update" onclick="actualizar_token();">
-  <i class="mdi mdi-refresh"></i> Actualizar Token
+  Actualizar
 </button>
 
       </div>
