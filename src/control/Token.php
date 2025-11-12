@@ -22,8 +22,22 @@ class Token {
 
     // Llamar a la API para obtener el token del cliente con ID específico
     public function actualizar_token() {
-        // Cambia este valor según el cliente que quieres consultar
-        $id_cliente = 1; // ← aquí defines el cliente (puede venir por $_GET o $_POST)
+        // Obtener token actual desde la BD local
+    $token_actual = $this->modelo->obtenerToken();
+
+    if (!$token_actual) {
+        echo json_encode(['status' => false, 'msg' => 'No se encontró un token registrado localmente']);
+        return;
+    }
+
+    // Extraer el ID del cliente del token
+    $partes = explode('-', $token_actual);
+    if (count($partes) < 3) {
+        echo json_encode(['status' => false, 'msg' => 'Formato de token inválido']);
+        return;
+    }
+
+    $id_cliente = $partes[2]; // ← obtenemos el id desde el token
 
         // URL real de tu API
         $url = "https://apicolegios.serviciosvirtuales.com.pe/src/control/ApiRequest.php?tipo=obtener_token&id=" . $id_cliente;
