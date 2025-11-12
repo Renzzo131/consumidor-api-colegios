@@ -20,7 +20,7 @@ class Token {
         }
     }
 
-    // 🔹 Llamar a la API para obtener el token del cliente con ID específico
+    // Llamar a la API para obtener el token del cliente con ID específico
     public function actualizar_token() {
         // Cambia este valor según el cliente que quieres consultar
         $id_cliente = 1; // ← aquí defines el cliente (puede venir por $_GET o $_POST)

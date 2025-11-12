@@ -21,9 +21,9 @@ async function actualizar_token() {
 
         if (data.status) {
             document.getElementById('token_usuario').value = data.token;
-            alert("Token actualizado correctamente ✅");
+            alert("Token actualizado correctamente");
         } else {
-            alert("No se pudo actualizar el token ❌");
+            alert("No se pudo actualizar el token");
         }
     } catch (error) {
         console.error("Error al actualizar el token:", error);

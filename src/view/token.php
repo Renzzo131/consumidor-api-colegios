@@ -137,7 +137,7 @@
     <div class="row align-items-end">
       <div class="col-md-9 mb-3">
         <label for="token_usuario" class="form-label">Tu Token Actual</label>
-        <input type="text" class="form-control" id="token_usuario" value="1234abcd5678efgh" readonly>
+        <input type="text" class="form-control" id="token_usuario" value="" readonly>
       </div>
       <div class="col-md-3 mb-3 text-end">
 <button type="button" class="btn-update" onclick="actualizar_token();">
