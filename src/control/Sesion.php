@@ -1,5 +1,6 @@
 <?php
-require_once('../model/admin-sesionModel.php');
+require_once __DIR__ . '/../model/admin-sesionModel.php';
+
 $tipo = $_REQUEST['tipo'];
 
 //instanciar la clase periodo model

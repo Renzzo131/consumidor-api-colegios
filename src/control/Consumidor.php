@@ -1,9 +1,10 @@
 <?php
 session_start();
-require_once('../model/admin-sesionModel.php');
-require_once('../model/admin-colegioModel.php');
-require_once('../model/admin-usuarioModel.php');
-require_once('../model/adminModel.php');
+require_once(__DIR__ . '/../model/admin-sesionModel.php');
+require_once(__DIR__ . '/../model/admin-colegioModel.php');
+require_once(__DIR__ . '/../model/admin-usuarioModel.php');
+require_once(__DIR__ . '/../model/adminModel.php');
+
 $tipo = $_GET['tipo'];
 
 //instanciar la clase categoria model

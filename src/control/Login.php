@@ -1,7 +1,7 @@
 <?php
-require_once("../model/admin-usuarioModel.php");
-require_once("../model/admin-sesionModel.php");
-require_once("../model/adminModel.php");
+require_once __DIR__ . '/../model/admin-usuarioModel.php';
+require_once __DIR__ . '/../model/admin-sesionModel.php';
+require_once __DIR__ . '/../model/adminModel.php';
 
 $objUsuario = new UsuarioModel();
 $objSesion = new SessionModel();

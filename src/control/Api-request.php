@@ -1,6 +1,7 @@
 <?php
 header('Content-Type: application/json');
-require_once('../model/admin-apiModel.php');
+require_once(__DIR__ . '/../model/admin-apiModel.php');
+
 
 
 // Instancia del modelo

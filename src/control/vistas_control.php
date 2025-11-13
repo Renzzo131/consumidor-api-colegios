@@ -1,6 +1,7 @@
 <?php
 
-require_once "./src/model/vistas_model.php";
+require_once(__DIR__ . '/../model/vistas_model.php');
+
 
 class vistasControlador extends vistaModelo
 {
