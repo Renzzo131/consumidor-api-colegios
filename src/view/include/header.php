@@ -280,7 +280,7 @@
                 <div class="navbar-header">
                     <!-- LOGO -->
                     <div class="navbar-brand-box d-flex align-items-left">
-                        <a href="<?php echo BASE_URL ?>src/view/inicio.php" class="logo">
+                        <a href="<?php echo BASE_URL ?>inicio" class="logo">
                             <span>
                                 CENTROS EDUCATIVOS
                             </span>
